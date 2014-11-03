@@ -1,0 +1,21 @@
+{
+	"author": "guberni",
+	"name": "tellki-postgres-availability-monitor",
+	"description": "Tellki Postgres availability monitor",
+	"version": "0.0.1",
+	"keywords": ["tellki","monitor","postgres","database","availability","real time"],
+	"homepage": "www.tellki.com",
+	"repository" : { 
+		"type" : "git", "url" : "https://github.com/tellkiApp/tellkiAgent_PostgresAvailability.git"  
+	},
+	"main": "./lib/postgres_availability_monitor",
+	"bin": {
+		"tellki-postgres-availability-monitor": "./bin/tellki-postgres-availability-monitor"
+	},
+	"dependencies": {
+        "pg": "~3.6.2"
+	},
+	"engines": {
+		"node": "*"
+	}
+}
