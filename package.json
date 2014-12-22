@@ -2,7 +2,7 @@
 	"author": "guberni",
 	"name": "tellki-postgres-availability-monitor",
 	"description": "Tellki Postgres availability monitor",
-	"version": "0.0.10",
+	"version": "0.0.16",
 	"keywords": ["tellki","monitor","postgres","database","availability","real time"],
 	"homepage": "www.tellki.com",
 	"repository" : { 
@@ -13,7 +13,7 @@
 		"tellki-postgres-availability-monitor": "./bin/tellki-postgres-availability-monitor"
 	},
 	"dependencies": {
-        "pg": "~3.6.2"
+        "pg": "~4.1.1"
 	},
 	"engines": {
 		"node": "*"
