@@ -2,7 +2,7 @@
 	"author": "guberni",
 	"name": "tellki-postgres-availability-monitor",
 	"description": "Tellki Postgres availability monitor",
-	"version": "0.0.18",
+	"version": "0.0.19",
 	"keywords": ["tellki","monitor","postgres","database","availability","real time"],
 	"homepage": "www.tellki.com",
 	"repository" : { 
